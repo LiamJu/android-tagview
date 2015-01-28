@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package pl.charmas.android.tagview.example;
+package demo.charmas.android.tagview;
 
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -25,7 +25,6 @@ import android.support.v4.view.ViewPager;
 
 import java.util.LinkedList;
 
-import pl.charmas.android.tagview.R;
 import pl.charmas.android.tagview.TagView;
 
 public class MainActivity extends FragmentActivity {

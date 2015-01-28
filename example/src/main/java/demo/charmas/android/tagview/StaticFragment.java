@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package pl.charmas.android.tagview.example;
+package demo.charmas.android.tagview;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -22,7 +22,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import pl.charmas.android.tagview.R;
 import pl.charmas.android.tagview.TagView;
 
 public class StaticFragment extends Fragment {

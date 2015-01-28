@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package pl.charmas.android.tagview.example;
+package demo.charmas.android.tagview;
 
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
@@ -25,7 +25,6 @@ import android.widget.BaseAdapter;
 import java.util.LinkedList;
 import java.util.List;
 
-import pl.charmas.android.tagview.R;
 import pl.charmas.android.tagview.TagView;
 
 public class ListExampleFragment extends ListFragment{
@@ -60,6 +59,7 @@ public class ListExampleFragment extends ListFragment{
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
+
             if(convertView == null) {
                 convertView = inflater.inflate(R.layout.tags_list_item, parent, false);
                 ((TagView)convertView).setTags(getItem(position), " ");
